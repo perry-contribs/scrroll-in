@@ -31,6 +31,12 @@ The `background.js` handles switching icon color part whenever a tab is changed,
 
 The popup sheet is also handled by `popup.js` by dynamically changing the UI following the availability of the URL in the localStorage object.
 
+## Testing Scrroll-In
+The test suite is under development.
+It is built using Mocha. It uses Chai assertions.
+All the tests are located in `test` directory.
+**Every test file tests the file of the similar name. For example, `test.delete.js` tests `delete.js`** 
+
 ## Development
 
 To run the extension locally follow these steps
